@@ -35,3 +35,4 @@ Change these options in the workflow `.yml` file to meet your GitHub project nee
 | --------------- | ----------------------------------- | ------------------------------------- |
 | `directory`     | Choose the directory to be analysed | `/`                                   |
 | `project-token` | The project API token               | `${{ secrets.CODACY_PROJECT_TOKEN }}` |
+| `tool` | The tool. For example spotbugs               | `` |
